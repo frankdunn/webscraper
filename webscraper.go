@@ -10,13 +10,13 @@ import (
 )
 
 func metaScrape() {
-	f, err := os.Open("C:/Users/frank/Documents/test.html")
+	f, err := os.Open("C:/Users/frank/Documents/GitHub/webscraper/test.html")
 	if err != nil {
 		log.Fatal(err)
 	}
 	defer f.Close()
 	doc, _ := goquery.NewDocumentFromReader(f)
-	//doc, err := goquery.NewDocument("C:/Users/frank/Documents/test.html")
+	//doc, err := goquery.NewDocument("17.0.0.3")
 
 	if err != nil {
 		log.Fatal(err)
