@@ -31,7 +31,7 @@ func metaScrape() {
 
 		fmt.Printf("result : %d: %s \n", i, newtext)
 		if strings.Contains(newtext, "HF2") {
-			fmt.Println("*********found it ***************")
+			fmt.Println("***found it ***")
 		}
 	})
 
